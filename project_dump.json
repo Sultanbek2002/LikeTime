@@ -1,0 +1,119 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$oLZqWbZ8YqVGzSPWaw9wtp$rhp9g1mlsCYlJ0Q7wZFFC/r6SmTd/TAo1HjvqTPLt+U=",
+        "last_login": "2023-11-14T17:58:46.541Z",
+        "is_superuser": true,
+        "username": "liketime",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-11-14T17:58:17.374Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "4cqrl2jovsh65smrz3lpdztek5ururqa",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pDSAdpx6d4zkGEYbNVAUtqV8e7apAvd_vfef6lA2zqFrckS5qTOyqjT7xaJH1J2kO5UblVzLesyR70r-qBNX2uS5-Vw_w4matO3zhBN5AEse-_BWWMRMTt0AmNiOzIw9-jBEiUQySh5oK53nWTpfUL1_gDbOjge:1r2xgU:fVMp3l-CUbaJrTbhoQnCm6ZXkk_2YFck6gOjsZRON3g",
+        "expire_date": "2023-11-28T17:58:46.542Z"
+    }
+},
+{
+    "model": "website.teachers",
+    "pk": 1,
+    "fields": {
+        "tittle": "Гул",
+        "subject": "Английский",
+        "image": "media/photo/teachers/14/Снимок_экрана_2016-03-03_в_09.49.10.png",
+        "description": "Она досехпор препожает на англ"
+    }
+},
+{
+    "model": "website.cours",
+    "pk": 2,
+    "fields": {
+        "name": "BlueJaket",
+        "image": "media/photo/cours/14/Снимок_экрана_2016-03-02_в_11.43.41.png",
+        "on_time": "15:00",
+        "price": "2000"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2023-11-14T17:59:27.138Z",
+        "user": [
+            "liketime"
+        ],
+        "content_type": [
+            "website",
+            "cours"
+        ],
+        "object_id": "1",
+        "object_repr": "Английский",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2023-11-14T18:00:22.589Z",
+        "user": [
+            "liketime"
+        ],
+        "content_type": [
+            "website",
+            "teachers"
+        ],
+        "object_id": "1",
+        "object_repr": "Гул",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2023-11-14T18:02:09.184Z",
+        "user": [
+            "liketime"
+        ],
+        "content_type": [
+            "website",
+            "cours"
+        ],
+        "object_id": "1",
+        "object_repr": "Английский",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2023-11-14T18:03:28.226Z",
+        "user": [
+            "liketime"
+        ],
+        "content_type": [
+            "website",
+            "cours"
+        ],
+        "object_id": "2",
+        "object_repr": "BlueJaket",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]
